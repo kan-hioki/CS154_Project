@@ -21,6 +21,13 @@
 		</block>
 		<!--The list of transitions.-->
 		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read/>
+			<write>R</write>
+			<move>S</move>
+		</transition>
+		<transition>
 			<from>0</from>
 			<to>0</to>
 			<read>!□</read>
@@ -33,13 +40,6 @@
 			<read/>
 			<write/>
 			<move>R</move>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read/>
-			<write>R</write>
-			<move>L</move>
 		</transition>
 		<!--The list of automata-->
 		<Machine0/>
